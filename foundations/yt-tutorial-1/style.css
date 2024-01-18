@@ -1,0 +1,95 @@
+
+/* Universal Selector 
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*/
+
+
+body {
+    font-size: 22px;
+}
+
+
+main {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* This made all of the text within our body larger,
+notably due to inheritance */
+
+
+h1, h2 {
+    color: blue;
+}
+
+/* group selectors 
+
+use a comma to select multiple groups
+
+
+*/
+
+/* span is a generic inline container element
+This element is used to wrap sections of text for styling purposes
+or to add attributes to a section of text
+without creating a new line of content
+
+
+
+
+Specificity:
+
+Element selector (least specific)
+Class selector 
+ID selector
+*/
+
+
+.highlight {
+    text-transform: lowercase;
+    background-color: gold;
+}
+
+
+
+p {
+    color: purple;
+} 
+
+/* adding !important (important flag)
+
+after x will override everything else
+
+mainly just for debugging
+
+
+*/
+
+p {
+    color: green;
+}
+/* reads the last rule (the last thing read will be applied)
+
+
+
+/* class selector 
+
+This is the most common type of selector
+
+*/
+
+
+
+.gray {
+    color: gray;
+}
+
+#second-article {
+    font-style: italic;
+}
+
+
